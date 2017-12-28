@@ -1,5 +1,5 @@
 var fs = require("fs");
 
-exports.read_output = function(cb){
-    fs.readFile('output.txt',cb)
+exports.read_output = function(filename,cb){
+    fs.readFile(filename,cb)
 }

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        function shit() {
+            var path = window.document.getElementById('path');
+            window.location = "http://127.0.0.1:8888/readfile?file="+path.value;
+        }
+
+    </script>
+    <meta charset="UTF-8">
+    <title>file reader</title>
+</head>
+<body>
+<input type="text" width="100"  id = "path">
+<input type="button" width="20" onclick="return shit()">
+</body>
+</html>
